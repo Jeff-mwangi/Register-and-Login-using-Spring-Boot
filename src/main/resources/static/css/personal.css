@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Nixie One';
+    background-color: #d2d9e3;
+}
+
+header,
+.header2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://github.com/ndIX97/CSS-Simple-Landing-Page/blob/master/css-landing-page/img/dawn-dusk-hd-wallpaper-164227.jpg?raw=true);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+header h1.showcase-title,
+.header2 h1.showcase-title {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #fbecb2;
+    border: 0.1em solid #fbecb2;
+    padding: 0px 30px;
+}
+
+header p.showcase-subtitle {
+    color: #fdf9a8;
+    text-transform: uppercase;
+}
+
+.section1,
+.section2 {
+    color: #87250d;
+    background-color: #fefad9;
+    padding: 50px 25px;
+    text-align: center
+}
+
+.section1 h1.section-title1 {
+    font-size: 3em;
+    font-family: 'Painter PERSONAL USE ONLY';
+}
+
+
+.header2 {
+    background-image: url(https://github.com/ndIX97/CSS-Simple-Landing-Page/blob/master/css-landing-page/img/blue-water-clear-water-liquid-933701.jpg?raw=true);
+}
+
+.header2 h1.showcase-title {
+    font-size: 3em;
+    color: #d9ecdf;
+    border: 0.1em solid #d9ecdf;
+    text-align: center
+}
+
+.header2 p.showcase-subtitle {
+    color: #d9ecdf;
+}
+
+.section2 {
+    color: #006a82;
+    background-color: #d8ecdd;
+}
+
+.section2 h1.section-title2 {
+    font-size: 3em;
+    font-family: 'Painter PERSONAL USE ONLY';
+    text-align: center;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    place-items: center;
+    margin: 20px 40px 50px 40px;
+}
+
+.section3 h1 {
+    grid-column: 1 / -1;
+    color: #2d2d2d
+}
+
+.section3 img {
+    width: 100%;
+}
+
+.section3 .cards:hover {
+    transform: scale(1.05);
+
+}
+
+.section3 p {
+    padding: 10px;
+}
+
+.section3 .cardsec-title {
+    font-size: 5em;
+
+    font-family: Redbus;
+}
+
+.cards {
+    text-align: center;
+    background-color: #fff;
+}
